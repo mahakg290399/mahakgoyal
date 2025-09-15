@@ -68,7 +68,7 @@ export const ContactSection = () => {
                   {contact.icon}
                 </div>
                 <h3 className="font-bold text-primary mb-2">{contact.label}</h3>
-                <p className="text-muted-foreground text-sm group-hover:text-accent transition-colors">
+                <p className="text-muted-foreground text-sm group-hover:text-accent transition-colors break-words overflow-wrap-anywhere">
                   {contact.value}
                 </p>
               </a>
