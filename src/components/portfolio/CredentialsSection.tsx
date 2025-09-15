@@ -9,21 +9,24 @@ export const CredentialsSection = () => {
       issuer: "Amazon Web Services",
       year: "2024",
       level: "Associate",
-      color: "skill-expert"
+      color: "skill-expert",
+      link: "https://drive.google.com/file/d/1zxXXE1LdLAF0rMPsaeUNJcsI6qS0fCKS/view?usp=sharing"
     },
     {
       title: "AWS Certified Solutions Architect – Associate",
       issuer: "Amazon Web Services", 
       year: "2023",
       level: "Associate",
-      color: "skill-proficient"
+      color: "skill-proficient",
+      link: "https://drive.google.com/file/d/1eWvDrOAqVQ34lyHbgzBcH-CSV-T5YGpc/view?usp=sharing"
     },
     {
       title: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services",
       year: "2022", 
       level: "Foundational",
-      color: "skill-skilled"
+      color: "skill-skilled",
+      link: "https://drive.google.com/file/d/1k1oDkDc5s-d8pHSWvVAVTxk2kTBjKJW6/view?usp=sharing"
     }
   ];
 
@@ -57,7 +60,11 @@ export const CredentialsSection = () => {
             </h3>
             <div className="space-y-6">
               {certifications.map((cert, index) => (
-                <Card key={index} className="card-hover p-6">
+                <Card 
+                  key={index} 
+                  className="card-hover p-6 cursor-pointer transition-all hover:shadow-lg" 
+                  onClick={() => window.open(cert.link, '_blank')}
+                >
                   <div className="flex items-start gap-4">
                     <div className={`w-12 h-12 rounded-full flex items-center justify-center ${cert.color} flex-shrink-0`}>
                       <CheckCircle className="w-6 h-6" />
@@ -68,9 +75,14 @@ export const CredentialsSection = () => {
                         <Badge variant="secondary">{cert.year}</Badge>
                       </div>
                       <p className="text-muted-foreground text-sm mb-2">{cert.issuer}</p>
-                      <Badge variant="outline" className="text-xs">
-                        {cert.level} Level
-                      </Badge>
+                      <div className="flex items-center gap-2">
+                        <Badge variant="outline" className="text-xs">
+                          {cert.level} Level
+                        </Badge>
+                        <Badge variant="default" className="text-xs">
+                          Click to View Certificate
+                        </Badge>
+                      </div>
                     </div>
                   </div>
                 </Card>
