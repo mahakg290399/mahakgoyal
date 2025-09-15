@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Mail, Phone, Linkedin, Github, MessageCircle } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, MessageCircle, BookOpen } from "lucide-react";
 
 export const ContactSection = () => {
   const contactInfo = [
@@ -31,6 +31,13 @@ export const ContactSection = () => {
       value: "mahakg290399",
       href: "https://github.com/mahakg290399",
       color: "skill-skilled"
+    },
+    {
+      icon: <BookOpen className="w-6 h-6" />,
+      label: "Medium Blog",
+      value: "mahakgoyal290399",
+      href: "https://medium.com/@mahakgoyal290399",
+      color: "skill-proficient"
     }
   ];
 
@@ -48,7 +55,7 @@ export const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
           {contactInfo.map((contact, index) => (
             <Card key={index} className="card-hover p-6 text-center group">
               <a 

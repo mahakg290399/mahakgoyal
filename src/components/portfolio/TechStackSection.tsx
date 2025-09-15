@@ -10,7 +10,7 @@ export const TechStackSection = () => {
       icon: <Star className="w-6 h-6" />,
       level: "8.5/10",
       color: "skill-expert",
-      skills: ["Python", "PySpark", "AWS Glue", "AWS Lambda", "AWS S3"],
+      skills: ["Python", "PySpark", "AWS Glue", "AWS Lambda", "AWS S3", "ETL/ELT Design", "Git", "GitHub Actions"],
       progress: 85
     },
     {
@@ -18,7 +18,7 @@ export const TechStackSection = () => {
       icon: <Cloud className="w-6 h-6" />,
       level: "7.5/10", 
       color: "skill-proficient",
-      skills: ["AWS EMR", "CloudFormation", "Athena", "SQL", "Scala", "Hadoop", "Hive"],
+      skills: ["AWS EMR", "CloudFormation", "Athena", "SQL", "Scala", "Hadoop", "Hive", "REST APIs"],
       progress: 75
     },
     {
@@ -26,7 +26,7 @@ export const TechStackSection = () => {
       icon: <Code className="w-6 h-6" />,
       level: "6.5/10",
       color: "skill-skilled",
-      skills: ["ETL/ELT Design", "CI/CD", "Git", "GitHub Actions", "REST APIs", "Microservices", "MongoDB", "Atlassian Suite"],
+      skills: ["CI/CD", "Microservices", "MongoDB", "Atlassian Suite"],
       progress: 65
     }
   ];
