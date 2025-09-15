@@ -51,6 +51,7 @@ export const HeroSection = () => {
           <Button 
             variant="cta" 
             size="lg"
+            onClick={() => window.open('https://drive.google.com/file/d/15ylBrMkV6qkcXEiLsKWQ8CoJWmu9pCq9/view?usp=sharing', '_blank')}
             className="group"
           >
             <Download className="w-5 h-5 group-hover:scale-110 transition-transform" />
