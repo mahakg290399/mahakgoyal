@@ -6,10 +6,26 @@ export const ImpactSection = () => {
   const achievements = [
     {
       icon: <DollarSign className="w-8 h-8" />,
-      title: "Serverless Cost Savings",
-      impact: "80% Cost Reduction",
-      description: "Architected and developed event-driven, serverless data processing workflows using AWS Lambda and Python, resulting in an 80% reduction in server costs compared to legacy systems.",
-      technologies: ["AWS Lambda", "Python", "Event-driven Architecture", "Serverless"],
+      title: "Legacy Vendor Modernization",
+      impact: "Replaced 20-Year-Old System",
+      description: "Leading the migration of a mission-critical trade monitoring system from NICE Actimize to a custom AWS architecture, eliminating high vendor licensing costs and enabling bespoke business enhancements.",
+      technologies: ["AWS Glue", "PySpark", "Apache Iceberg", "MWAA", "Medallion Architecture"],
+      color: "skill-expert"
+    },
+    {
+      icon: <Shield className="w-8 h-8" />,
+      title: "Compliance Rule Engine",
+      impact: "100+ Rules, 100K+ Records/Day",
+      description: "Developed 100+ compliance rules in AWS Glue (PySpark) processing 100K+ daily records to identify ~100 high-priority alerts with rule execution times of 2–10 minutes.",
+      technologies: ["AWS Glue", "PySpark", "Compliance", "Data Quality", "S3"],
+      color: "skill-proficient"
+    },
+    {
+      icon: <Database className="w-8 h-8" />,
+      title: "Best-Sales-Practice Compliance",
+      impact: "10M+ Records in 10 Minutes",
+      description: "Designed and built a custom AWS Glue solution from scratch to run daily best-sales-practice compliance checks across 10M+ records, replacing a 20-year-old proprietary vendor system with fail-safe recovery and idempotent reprocessing.",
+      technologies: ["AWS Glue", "PySpark", "Step Functions", "Data Modeling", "Reconciliation"],
       color: "skill-expert"
     },
     {
@@ -29,11 +45,11 @@ export const ImpactSection = () => {
       color: "skill-expert"
     },
     {
-      icon: <Shield className="w-8 h-8" />,
-      title: "Reusable Data Quality Module",
-      impact: "Organization-wide Adoption",
-      description: "Developed a generalized, reusable Python module for data quality checks. Created a standard, scalable solution that filled a functionality gap and was adopted organization-wide.",
-      technologies: ["Python", "Data Quality", "Reusable Components", "Engineering Standards"],
+      icon: <DollarSign className="w-8 h-8" />,
+      title: "Serverless Cost Savings",
+      impact: "80% Cost Reduction",
+      description: "Architected and developed event-driven, serverless data processing workflows using AWS Lambda and Python, resulting in an 80% reduction in server costs compared to legacy systems.",
+      technologies: ["AWS Lambda", "Python", "Event-driven Architecture", "Serverless"],
       color: "skill-skilled"
     }
   ];

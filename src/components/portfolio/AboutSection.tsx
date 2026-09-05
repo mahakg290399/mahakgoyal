@@ -34,8 +34,8 @@ export const AboutSection = () => {
             </div>
             <h3 className="text-xl font-semibold mb-4 text-accent">My Growth</h3>
             <p className="text-muted-foreground">
-              4+ years at Tata Consultancy Services, progressing from Assistant System Engineer to Senior Data Engineer. 
-              Architecting cloud-based data solutions for leading US asset management companies.
+              5+ years across Tata Consultancy Services and Matrix - IFS, progressing from Assistant System Engineer to Senior Data Engineer. 
+              Architecting cloud-based data solutions for leading US asset management and financial services companies.
             </p>
           </Card>
 
@@ -61,15 +61,17 @@ export const AboutSection = () => {
                 and research work on automated medical systems.
               </p>
               <p className="mb-6">
-                At Tata Consultancy Services, I've spent 4+ years architecting and optimizing large-scale, 
-                cloud-based data solutions for a leading US asset management company. This experience has 
-                taught me that the best solutions come from understanding both the technical possibilities 
-                and the business impact.
+                At Tata Consultancy Services, I spent over 4 years architecting and optimizing large-scale, 
+                cloud-based data solutions for a leading US asset management company. Now at Matrix - IFS, 
+                I'm leading the migration of mission-critical trade monitoring systems from legacy vendor 
+                platforms to modern AWS architectures, building compliance rules and medallion data lakes 
+                that process millions of records daily.
               </p>
               <p>
                 What drives me is curiosity and the belief that technology should create meaningful impact. 
-                Whether it's reducing costs by 80% through serverless architecture or building reusable 
-                components that scale across organizations, I focus on solutions that matter.
+                Whether it's reducing costs by 80% through serverless architecture, replacing 20-year-old 
+                vendor systems with custom AWS Glue solutions, or leveraging AI-assisted engineering to 
+                accelerate development, I focus on solutions that matter.
               </p>
             </div>
           </div>
