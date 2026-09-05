@@ -7,7 +7,7 @@ export const CredentialsSection = () => {
     {
       title: "AWS Certified Data Engineer – Associate",
       issuer: "Amazon Web Services",
-      year: "2024",
+      year: "Dec 2024 – Dec 2027",
       level: "Associate",
       color: "skill-expert",
       link: "https://drive.google.com/file/d/1zxXXE1LdLAF0rMPsaeUNJcsI6qS0fCKS/view?usp=sharing"
@@ -15,7 +15,7 @@ export const CredentialsSection = () => {
     {
       title: "AWS Certified Solutions Architect – Associate",
       issuer: "Amazon Web Services", 
-      year: "2023",
+      year: "Aug 2023 – Aug 2026",
       level: "Associate",
       color: "skill-proficient",
       link: "https://drive.google.com/file/d/1eWvDrOAqVQ34lyHbgzBcH-CSV-T5YGpc/view?usp=sharing"
@@ -23,7 +23,7 @@ export const CredentialsSection = () => {
     {
       title: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services",
-      year: "2022", 
+      year: "Mar 2023 – Dec 2027", 
       level: "Foundational",
       color: "skill-skilled",
       link: "https://drive.google.com/file/d/1k1oDkDc5s-d8pHSWvVAVTxk2kTBjKJW6/view?usp=sharing"
