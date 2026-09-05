@@ -22,14 +22,14 @@ export const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="float-animation">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-glow">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-glow">
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Mahak Goyal
             </span>
+            <span className="block text-2xl md:text-4xl mt-2 text-accent">
+              AWS Certified Data Engineer
+            </span>
           </h1>
-          <h2 className="text-xl md:text-2xl text-accent font-semibold mb-8">
-            AWS Certified Data Engineer
-          </h2>
         </div>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
