@@ -123,9 +123,10 @@ export const CredentialsSection = () => {
             <Card className="card-hover p-6 mt-6 bg-gradient-to-r from-primary/10 to-accent/10 border-primary/20">
               <h5 className="font-bold text-primary mb-3">Professional Development</h5>
               <div className="space-y-2 text-muted-foreground text-sm">
-                <p>• 4+ years of hands-on experience at Tata Consultancy Services</p>
+                <p>• 5+ years of hands-on experience across Matrix - IFS and Tata Consultancy Services</p>
                 <p>• Progression from Assistant System Engineer to Senior Data Engineer</p>
-                <p>• Continuous learning in emerging technologies (AI/ML, LLMs, MCP)</p>
+                <p>• Experience with Medallion data lake architecture and Apache Iceberg</p>
+                <p>• AI-assisted engineering with GitHub Copilot and Claude Code</p>
                 <p>• Active participation in IEEE research and technical publications</p>
               </div>
             </Card>
