@@ -16,6 +16,17 @@ const Portfolio = () => {
           content="Senior Data Engineer with 5+ years of experience. AWS certified expert in PySpark, Python, and cloud data solutions. Proven track record of 80% cost savings and scalable architecture design."
         />
         <link rel="canonical" href="https://mahakgoyal.lovable.app/" />
+        <meta property="og:title" content="Mahak Goyal - AWS Certified Data Engineer" />
+        <meta
+          property="og:description"
+          content="Senior Data Engineer specializing in AWS cloud solutions, PySpark, and scalable data pipelines. 5+ years of experience with proven impact."
+        />
+        <meta property="og:url" content="https://mahakgoyal.lovable.app/" />
+        <meta name="twitter:title" content="Mahak Goyal - AWS Certified Data Engineer" />
+        <meta
+          name="twitter:description"
+          content="Senior Data Engineer with expertise in AWS, PySpark, and cloud data solutions"
+        />
       </Helmet>
       <HeroSection />
       <AboutSection />
