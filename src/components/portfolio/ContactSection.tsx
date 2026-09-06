@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Mail, Phone, Linkedin, Github, MessageCircle, BookOpen } from "lucide-react";
+import { ContactForm } from "./ContactForm";
+
 
 export const ContactSection = () => {
   const contactInfo = [
