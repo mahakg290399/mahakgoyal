@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { HeroSection } from "@/components/portfolio/HeroSection";
 import { AboutSection } from "@/components/portfolio/AboutSection";
 import { ImpactSection } from "@/components/portfolio/ImpactSection";
@@ -8,6 +9,14 @@ import { ContactSection } from "@/components/portfolio/ContactSection";
 const Portfolio = () => {
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>Mahak Goyal - AWS Certified Data Engineer | Data Engineering Portfolio</title>
+        <meta
+          name="description"
+          content="Senior Data Engineer with 5+ years of experience. AWS certified expert in PySpark, Python, and cloud data solutions. Proven track record of 80% cost savings and scalable architecture design."
+        />
+        <link rel="canonical" href="https://mahakgoyal.lovable.app/" />
+      </Helmet>
       <HeroSection />
       <AboutSection />
       <ImpactSection />
