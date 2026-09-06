@@ -76,7 +76,12 @@ export const ContactSection = () => {
           ))}
         </div>
 
+        <div className="mb-12">
+          <ContactForm />
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-8">
+
           <Card className="card-hover p-8">
             <div className="text-center mb-6">
               <MessageCircle className="w-12 h-12 mx-auto mb-4 text-primary" />
